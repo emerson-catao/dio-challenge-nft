@@ -1,0 +1,23 @@
+#passos do desafio
+
+As alternativas de blockchain fornecidas na aula preparatória não estavam disponíveis no formato gratuito. Foi tentado outras blockchain mas sem sucesso.
+
+Para caracterizar o entendimento e gerar as evidencias da conclusão do desafio foi utilizada a blockchain local Ganache, a carteira Metamask, a ferramenta IPFS para gerenciar os arquivos de imagem e a IDE Remix para manipular o contrato no padrão ERC721
+
+Foi utilizado o modelo de contrato aplicado no desafio de criação de NFT Pokemon, uma vez que os conceitos são bem similares.
+
+Foi utilizada instalação do navegador Brave com a extensão Metamask adicionada
+
+Foi utilizada a ferramenta IDE Remix para compilação do código em linguagem Solidity com os parametros da IDE ajustados para versão do solidity, 0.8.20, além da versão da EVM como "istambul".
+
+Foi efetuado upload das imagens para o IPFS
+
+O deploy do contrato cria um marketplace de NFT chamado Pokemon, executou-se a função createNewPokemon sendo referenciados os arquivos gerados no IPFS gerando os NFT Id (tokenID)
+
+Com os NFT gerados foi efetuada a transferencia para a carteira Metamask indicada na aula de preparação para o desafio (0xA9155F5B6FC993A82346a8ff86EFEf513fc4c096).
+
+As evidencias encontram-se nos arquivos anexados:
+  -print de tela do Ganache (exibe o bloco gerado em que a transferencia foi executada) 
+  -prints de tela da carteira Metamask (exibe o conteudo de NFT da conta envolvida e a transferencia para a conta de destino do desafio) 
+  -contrato em linguagem Solidity utilizado
+ 
